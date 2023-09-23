@@ -54,6 +54,8 @@ public final class DayView: UIView {
     label.font = invariantViewProperties.font
     label.textAlignment = invariantViewProperties.textAlignment
     label.textColor = invariantViewProperties.textColor
+    label.minimumScaleFactor = 0.8
+    label.adjustsFontSizeToFitWidth = true
 
     super.init(frame: .zero)
 
